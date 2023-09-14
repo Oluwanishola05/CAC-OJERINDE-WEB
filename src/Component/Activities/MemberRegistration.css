@@ -1,0 +1,79 @@
+.hero__section3{
+    background: #0a1d37;
+    height: 60vh;
+    background-size: cover;
+    padding: 60px;
+    justify-content: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 50px;
+}
+
+.join{
+    font-size: 3rem;
+    color: var(--card-bg-01);
+    text-shadow: 3px 4px 2px black;
+}
+
+.newcommer p{
+    color: white;
+}
+
+.part{
+    text-align: center;
+    font-size: 2rem;
+    color:#FF0000;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    
+}
+
+.great{
+    font-size: 5rem;
+    font-weight: 800;
+    text-align: center;
+    color: #001489
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    column-gap: 20px;
+  
+}
+
+.button2{
+    width: 130px;
+    height: 50px;
+    align-items: center;
+    outline: 2px solid white;
+    background-color: #FF0000;
+    border: none;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    box-shadow: 2px 3px 4px black;
+    cursor: pointer;
+   
+    
+}
+
+.social-icon2{
+    display: flex;
+    
+    margin-top: 20px;
+    column-gap: 10px;
+    color: azure;
+    
+    
+}
+
+.logoBac img{
+    height: 50vh;
+    width: 50vh;
+    float:right;
+    opacity: 0.1;
+    
+}

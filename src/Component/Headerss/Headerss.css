@@ -1,0 +1,279 @@
+:root {
+    --card-bg-01: #fdefe6;
+    --card-bg-02: #d6e5fb;
+    --card-bg-03: #ceebe9;
+    --card-bg-04: #e2f2b2;
+    --primary-color: #0a1d37;
+    --hero-bg: #d6e5fb;
+    --heading-fontSize: 2rem;
+    --small-text-color: #999;
+    --heading-text-color: #0a1d37;
+  }
+
+
+.header{
+    width: 100%;
+     height:  70px;
+     line-height: 70px;
+     background-color: whitesmoke;
+    
+    
+
+}
+.nav__wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #0a1d37;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    column-gap: 8px;
+}
+
+.logo img{
+    width: 3.2rem;
+    height: 3.2rem;
+    
+}
+
+.logo p {
+    font-size: 1rem;
+    font-weight: 700;
+    font-family: 'Arizonia', cursive;
+    color: #0a1d37;
+    
+    
+    }
+
+.menu{
+    display: flex;
+    align-items: center;
+    column-gap: 2.7rem;
+    margin-bottom: 0px;
+ 
+} 
+
+.nav__item a{
+    color: #0a1d37;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.nav__icons{
+    display: flex;
+    align-items: center;
+    column-gap: 1.5rem;
+    font-size: 2.5rem;
+ }
+
+ .nav__icons span i {
+    
+    color: var(--primary-color);
+
+ }
+
+
+ #badge{
+    position: absolute; ;
+    top:22% ;
+    right:-30%;
+    width: 18px;
+    height: 18px;
+    background: var(--heading-text-color);
+    color: #fff;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+    font-size: 0.9rem;
+    font-weight: 600;
+    z-index: 10;
+    text-align: center;
+ }
+ .nav__icons .profile img{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    border-radius: 50%;
+ }
+
+ .profile{
+    position: relative;
+    z-index: 9;
+ }
+
+ .profile .profile__actions {
+    position: absolute;
+    top:98%;
+    left:0;
+    width: 150px;
+    z-index: 30;
+    padding: 5px;
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+    background: var(--card-bg-01);
+    line-height: 30px;
+    display: none;
+    cursor: pointer;
+    transition: right 0.5s linear;
+ }
+
+ .profile .show__profileActions{
+    display: block;
+    position: absolute;
+    top:98%;
+    left:0;
+    width: 150px;
+    z-index: 10;
+    padding: 0px;
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+    background: var(--card-bg-01);
+    line-height: 30px;
+    font-size: 15px;
+    flex: column;
+    border-radius: 8px;
+    transition: right 0.5s linear;
+    
+ }
+
+ .profile .show__profileActions:after {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 0;
+    z-index: 1;
+    border-style: solid;
+    border-color: var(--card-bg-01) transparent;
+    border-width: 0 22px 20px;
+    top: -20px;
+    left: 39%;
+    margin-left: -22px;
+}
+
+ .profile__actions span{
+    font-size: 15px;
+ }
+
+ .profile__actions li {
+    padding-top:0px;
+    text-decoration: none;
+    margin-top: none;
+    font-weight: bold;
+    
+ }
+
+ .mobile__menu{
+    font-size: 1.5rem;
+    color: #ecb986;;
+    display: none;
+ }
+
+ .nav__active{
+    font-weight: 800 !important;
+    
+ }
+
+ .nav__item a:hover{
+    font-weight: 800 !important;
+    color: blue;
+    border-bottom:3px solid blue;
+ }
+
+ .sticky__header{
+    width:100%;
+    height: 70px;
+    line-height: 70px;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    box-shadow: 3px 3px 8px -3px #ddd;
+    background: #ceebe9 ;
+    
+
+ }
+
+
+ .profile__actions li {
+    padding-top:1px;
+    text-decoration: none;
+    margin-top: none;
+    font-weight: bold;
+    
+ }
+
+ @media only screen and (max-width: 768px){
+    .navigation{
+        position: fixed;
+        top:0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.53);
+        z-index: 9999;
+        display: none;
+    }
+
+    .menu{
+        position:absolute;
+        top:0;
+        right: 0;
+        width:250px;
+        height: 100%;
+        background: #fff;
+        z-index: 99999;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .active__menu{
+        display: block;
+
+    }
+    .mobile__menu{
+        display: block;
+    }
+
+    .mobile__menu span {
+        font-size: 1.9rem !important;
+    }
+
+    .logo img{
+        width: 2rem;
+        height: 2rem;
+    }
+
+    .logo h1{
+        font-size: 1.2rem;
+    }
+
+    .fav__icon i, .cart__icon i{
+     font-size: 2rem !important;
+    }
+
+    .nav__icons span img{
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+
+   section{
+    margin-left: 20px;
+    margin-right: 20px;
+   }
+
+    .header{
+        width: 100%;
+        height: 60px;
+        line-height: 30px;
+    }
+ }
+
+ 
+
+ 

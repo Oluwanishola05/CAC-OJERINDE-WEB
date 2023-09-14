@@ -1,0 +1,54 @@
+.listLink{
+    padding: 0px;
+    border: none; 
+}
+
+.footer{
+    padding-top: 60px;
+    padding-bottom: 30px;
+    background: rgb(2,0,36);
+}
+
+#text-footer{
+   color: white;
+   font-family: 'Arizonia' cursive;
+   font-size: 20px;
+   
+}
+
+
+.quick__link-title{
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.footer__panel{
+    color: #ffffffe7;
+}
+
+
+
+
+
+
+.footer__copyright{
+    text-align: center;
+    margin-top: 20px;
+    font-style: oblique;
+    font-size: 12px;
+    color:white;
+    
+}
+
+.social-icon{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    column-gap: 10px;
+    color: azure;
+    
+    
+}
+.media{
+    cursor: pointer;
+}

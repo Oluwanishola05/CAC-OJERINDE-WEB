@@ -1,0 +1,82 @@
+
+.hero_section{
+    background-image: url(../../assets/image/background2.jpg);
+    height: 60vh;
+    background-size: cover;
+    padding: 60px;
+    justify-content: center;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.hero_section p{
+    font-size: 4rem;
+    text-align: center;
+    justify-content: center;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 600;
+    color: yellow;
+    text-shadow: 4px 5px 3px black;
+    line-height: 1.1;
+    
+
+}
+
+.hero_section h3{
+    text-align: center;
+    color: white;
+    
+    
+}
+
+.btns{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    padding-top: 10px;
+    
+    
+    
+}
+
+.button1{
+    width: 130px;
+    height: 50px;
+    align-items: center;
+    outline: 2px solid white;
+    background-color: #29487D;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+    box-shadow: 2px 3px 4px black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    cursor: pointer;
+    margin-right: 15px;
+    margin-top: 10px;
+    
+   
+    
+}
+
+.button2{
+    width: 130px;
+    height: 50px;
+    align-items: center;
+    outline: none;
+    background-color: #FF0000;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    box-shadow: 2px 3px 4px black;
+    cursor: pointer;
+    margin-left: 15px;
+    margin-top: 10px;
+   
+    
+}

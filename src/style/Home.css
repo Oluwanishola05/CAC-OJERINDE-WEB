@@ -1,0 +1,67 @@
+.hero__section {
+    
+    background-image: url(../assets/image/background.jpg);
+    background-size: cover;
+    height:95vh;
+    padding: 60px 0;
+    
+    }
+
+    .hero__section1{
+      background-color: beige;
+      height: 20%;
+      padding: 30px 0;
+
+    }
+
+
+.typewriter h2 {
+    display: inline-block;
+    text-align: center;
+    color: whitesmoke;   
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid orange; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    animation: 
+    typewriter 4s steps(44) 1s 1 normal both,
+    blinkTextCursor 500ms steps(44) infinite normal;
+}
+      @keyframes typewriter{
+      from{width: 0;}
+      to{width: 34em;}
+      }
+      @keyframes blinkTextCursor{
+      from{border-right-color: rgba(255,255,255,.75);}
+      to{border-right-color: transparent;}
+      }
+
+.hero__content p{
+    color: var(--primary-color);
+    line-height:28px ;
+    font-size: 1.5rem;
+    margin: 0px;
+
+   
+
+}
+
+
+
+
+
+.verse p{
+  line-height:28px;
+  font-size: 1.2rem;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align: center;
+  color:black
+}
+
+.verse h4{
+  color: red;
+  text-align: center;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
