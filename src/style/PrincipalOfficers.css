@@ -1,0 +1,10 @@
+
+
+
+
+@media only screen and (max-width: 600px){
+    .officers img{
+        width: 100px;
+        height: auto;
+    }
+}

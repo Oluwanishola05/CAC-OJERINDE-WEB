@@ -29,8 +29,8 @@ const AboutUs = () => {
       <section>
         <Container>
           <Row>
-            <div className='typewriter2'>
-             <h2>Foundation </h2>
+            <div className='type'>
+             <p className='typewriter2'>Foundation </p>
 
              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur asperiores incidunt recusandae nostrum voluptatum quis, omnis nulla repellat a quas consequuntur corrupti accusamus explicabo? Rerum molestias maiores laborum tempora aperiam.
              Eligendi officiis harum eos accusantium, rerum ipsam eveniet hic veritatis atque fugiat temporibus ullam maiores molestiae praesentium tempore sit repudiandae ea velit inventore minus laudantium? Velit nihil amet iusto adipisci.
@@ -42,8 +42,8 @@ const AboutUs = () => {
             </div>
              <hr />
 
-             <div className='typewriter3'>
-             <h1>About Us </h1>
+             <div className='type'>
+             <p className='typewriter3'>About Us </p>
 
              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur asperiores incidunt recusandae nostrum voluptatum quis, omnis nulla repellat a quas consequuntur corrupti accusamus explicabo? Rerum molestias maiores laborum tempora aperiam.
              Eligendi officiis harum eos accusantium, rerum ipsam eveniet hic veritatis atque fugiat temporibus ullam maiores molestiae praesentium tempore sit repudiandae ea velit inventore minus laudantium? Velit nihil amet iusto adipisci.
@@ -60,7 +60,7 @@ const AboutUs = () => {
           
           <Row>
             <Col lg="6" md="12">
-            <div className='typewriter3'>
+            <div className='type'>
              <h2>Our Mision </h2>
 
              <p>Leading people into the knowledge of God
@@ -71,7 +71,7 @@ const AboutUs = () => {
             </Col>
 
             <Col lg="6" md="12">
-            <div className='typewriter3'>
+            <div className='type'>
              <h2> Our Vision </h2>
 
              <p>Soul winning and spiritual reawakining of the world </p>

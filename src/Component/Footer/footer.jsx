@@ -5,7 +5,7 @@ import { FaTwitter, FaInstagram, FaFacebook, FaLinkedin, FaGoogle } from 'react-
 import logo from '../../assets/image/cac-logo.png';
 
 import { Container, Row, Col } from "react-bootstrap";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 const Footer = () => {
 
@@ -20,7 +20,7 @@ const Footer = () => {
                 <Row>
                     <Col lg="3" md="4">
                         <div className="logo">
-                            <img src={logo} alt="" />
+                            
                                 <div>
                                     <p id="text-footer">OKE-IYE</p>
                                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
@@ -35,7 +35,7 @@ const Footer = () => {
 
                     <Col lg="3" md="4">
                         <div className="logo">
-                            <img src={logo} alt="" />
+                           
                                 <div>
                                     <p id="text-footer">Contact</p>
                                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
@@ -54,27 +54,27 @@ const Footer = () => {
                                 <div>
                                     <p id="text-footer">Links</p>
                                     
-                            <ul className="list" >
-                                <li>
-                                    <Link to='/home' style={{ color: '#FFF', textDecoration: 'none' }}>Home</Link>
-                                </li>                                                    
-            
-                                <li>
-                                    <Link to='/AboutUs' style={{ color: '#FFF', textDecoration: 'none' }}>AboutUs</Link> 
-                                </li>
+                                    <ul className="list" >
+                                        <li>
+                                            <Link to='/home' style={{ color: '#FFF', textDecoration: 'none' }}>Home</Link>
+                                        </li>                                                    
+                    
+                                        <li>
+                                            <Link to='/aboutUs' style={{ color: '#FFF', textDecoration: 'none' }}>AboutUs</Link> 
+                                        </li> 
 
-                                <li>
-                                    <Link to='/currentLeader' style={{ color: '#FFF', textDecoration: 'none' }}>Current Leader</Link>
-                                </li>
+                                        <li>
+                                            <Link to='/currentLeader' style={{ color: '#FFF', textDecoration: 'none' }}>Current Leader</Link>
+                                        </li>
 
-                                <li>
-                                    <Link to='/department' style={{ color: '#FFF', textDecoration: 'none'  }}>Department</Link>
-                                </li>
+                                        <li>
+                                            <Link to='/department' style={{ color: '#FFF', textDecoration: 'none'  }}>Department</Link>
+                                        </li>
 
-                                <li>
-                                    <Link to='/gallery' style={{ color: '#FFF', textDecoration: 'none'  }}>Gallery</Link>
-                                </li>
-                            </ul>
+                                        <li>
+                                            <Link to='/gallery' style={{ color: '#FFF', textDecoration: 'none'  }}>Gallery</Link>
+                                        </li>
+                                    </ul>
                                 </div>
                         </div>
 
@@ -83,7 +83,7 @@ const Footer = () => {
 
                     <Col lg="3" md="4">
                         <div className="logo">
-                            <img src={logo} alt="" />
+                            
                                 <div>
                                     <p id="text-footer">Social Media</p>
                                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 

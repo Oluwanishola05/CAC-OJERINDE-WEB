@@ -77,3 +77,63 @@
     opacity: 0.1;
     
 }
+
+@media only screen and (max-width: 600px){
+    .join{
+        font-size: 1.5rem;
+        color: var(--card-bg-01);
+        text-shadow: 3px 4px 2px black;
+    }
+
+    .hero__section3{
+        background: #0a1d37;
+        height: 30vh;
+        background-size: cover;
+        justify-content: center;
+        
+       
+    }
+
+    .newcommer p{
+        color: white;
+        font-size: small;
+    }
+
+    .newcommer{
+        height: 20vh;
+    }
+
+    .logoBac{
+        display:none;
+    }
+}
+
+@media only screen and (max-width: 480px){
+    .join{
+        font-size: 1.5rem;
+        color: var(--card-bg-01);
+        text-shadow: 3px 4px 2px black;
+    }
+
+    .hero__section3{
+        background: #0a1d37;
+        height: 45vh;
+        background-size: cover;
+        justify-content: center;
+        
+       
+    }
+
+    .newcommer p{
+        color: white;
+        font-size: small;
+    }
+
+    .newcommer{
+        height: 20vh;
+    }
+
+    .logoBac{
+        display:none;
+    }
+}

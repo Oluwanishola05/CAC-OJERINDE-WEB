@@ -18,11 +18,12 @@
     color:red;
  }
 
-  table{
-    width: 100%;
+  .table{
+    max-width:  100%;
     border: 1px solid #ddd;
     border-collapse: collapse;
-    margin-top: 20px;
+    align-items: center;
+    
     
   }
 
@@ -47,4 +48,16 @@
 
 tr:hover {
     background-color: #ddd;
+}
+
+@media only screen and (max-width: 600px){
+
+  .table{
+    width: 100%;
+    border: 1px solid #ddd;
+    border-collapse: collapse;
+    align-items: center;
+    
+    
+  }
 }

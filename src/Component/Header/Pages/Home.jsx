@@ -20,7 +20,7 @@ const Home = () => {
             <Col lg='6' md='6'>
 
               <div className="typewriter">
-                <h2>Welcome to CAC OKE-IYE (LIFE DISTRICT HQ) OJERINDE. </h2>
+                <p>Welcome to CAC OKE-IYE (LIFE DISTRICT HQ) OJERINDE. </p>
               </div>
 
               <div className='video' >
@@ -48,7 +48,10 @@ const Home = () => {
                     and there shall be one fold, and one shephard.</p>
               </div>
 
-              <WeeklyActivities />
+            <div>
+               <WeeklyActivities />
+            </div>
+              
           </Row>
 
           <Row>

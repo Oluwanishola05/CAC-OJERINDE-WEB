@@ -18,8 +18,48 @@
 
 .pix img {
     border-radius: 30px;
+    
+
+
+.hero__section7{
+    padding: 60px;
+    justify-content: center;
+    margin-top: auto;
+    margin-bottom: auto;
+   
+}
+
+.hero__section7 h2{
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: 600;
+    
+}
+
+.pix img {
+    border-radius: 30px;
     border-top: 10px solid blue;
     border-bottom: 10px solid red;
+    box-shadow: 3px 8px 4px black;
+    width: 80%;
+    height: 80%;
+    
+}
+
+.pastorName h4{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+}
+
+.pastorName p{
+    color: red;
+    font-style: italic;
+    font-weight: 600;
+}
+
+.pastorInfo{
+   margin: 50px;
+}
     box-shadow: 3px 8px 4px black;
     width: 80%;
     height: 80%;

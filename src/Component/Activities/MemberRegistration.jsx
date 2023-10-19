@@ -16,26 +16,27 @@ const MemberRegistration = () => {
                 <div className='newcommer'>
                     <h4 className='join'>Want to Join our Assembly?  </h4>
                     <p>Cras ultricies ligula sed magna dictum porta. 
-                      Sed porttitor lectus nibh. Donec rutrum congue leo eget malesuada. 
-                      Cras ultricies ligula sed magna dictum porta.
-                      Cras ultricies ligula sed magna dictum porta. 
-                      Sed porttitor lectus nibh. Donec rutrum congue leo eget malesuada.</p>
+                      Sed porttitor lectus nibh. 
+                     </p>
                     
+                     <PopRegistration />
 
-                </div>
 
-                <PopRegistration />
-
-                <div className="social-icon2">
+                     <div className="social-icon2">
                
-                            <FaFacebook size={25}  className="media" onClick={() => window.open('http://www.facebook.com')}/>
-                            <FaInstagram size={25} className="media" onClick={() => window.open('http://www.instagram.com')}/>
-                            <FaLinkedin size={25}  className="media" onClick={() => window.open('http://www.linkedin.com')}/>
-                            <FaTwitter size={25} className="media" onClick={() => window.open('http://www.twitter.com')}/>
-                            <FaGoogle size={25} className="media" onClick={() => window.open('http://www.google.com')}/>
-                            
+                      <FaFacebook size={20}  className="media" onClick={() => window.open('http://www.facebook.com')}/>
+                      <FaInstagram size={20} className="media" onClick={() => window.open('http://www.instagram.com')}/>
+                      <FaLinkedin size={20}  className="media" onClick={() => window.open('http://www.linkedin.com')}/>
+                      <FaTwitter size={20} className="media" onClick={() => window.open('http://www.twitter.com')}/>
+                      <FaGoogle size={20} className="media" onClick={() => window.open('http://www.google.com')}/>
+                      
 
+              </div>
                 </div>
+
+                
+
+               
 
                 </Col>
 

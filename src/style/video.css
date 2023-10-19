@@ -1,8 +1,19 @@
 .vid{
-    width: 150%;
+    width:  150%;
     display:flex;
     justify-content: center;
     align-items: center;
     
      
+}
+
+@media only screen and (max-width: 600px){
+    .vid{
+        width: auto;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        
+         
+    }
 }

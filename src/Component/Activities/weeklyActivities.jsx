@@ -9,7 +9,7 @@ const WeeklyActivities = () => {
         <Container>
             <Row>
                 <h3 className='title'> CHURCH WEEKLY AND MONTHLY ACTIVITIES</h3>
-                <table className='table'>
+                    <table className='table'>
                     <thead>
                         <td>Days</td>
                         <td>Church Activities</td>

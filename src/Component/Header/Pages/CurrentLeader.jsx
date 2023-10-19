@@ -2,6 +2,7 @@ import React from 'react'
 import { Container, Row, Col } from 'react-bootstrap';
 import DSPIX from "../../../assets/image/DSpicture.jpg";
 import "../../../style/CurrentLeader.css";
+import PrincipalOfficers from './PrincipalOfficers';
 
 const CurrentLeader = () => {
   return (
@@ -9,28 +10,27 @@ const CurrentLeader = () => {
 
     
         <div className='hero__section5'>
-        <section>
-          <Container>
-            <Row>
-              <div className='img'>
-              <h2>OUR LEADERS</h2>
-              </div>
-            </Row>
-            <Row>
-                
-            </Row>
-          </Container>
-        </section>
-        
+              <section>
+                <Container>
+                  <Row>
+                    <div className='img'>
+                    <h2>OUR LEADERS</h2>
+                    </div>
+                  </Row>
+                  <Row>
+                      
+                  </Row>
+                </Container>
+              </section>
         </div>
 
         <div className='hero__section7'>
           <section>
             <Container>
 
-            <h2>CAC PRINCIPAL OFFICER</h2>
+            <h2>CAC PRINCIPAL OFFICERS</h2>
               <Row>
-                {/* <!-- Team Item --> */}
+                <PrincipalOfficers />
               </Row>
 
             <h2>CURRENT LEADERS</h2>

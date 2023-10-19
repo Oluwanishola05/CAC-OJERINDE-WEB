@@ -10,6 +10,8 @@ const Gallery = () => {
         <Row>
           <h3>OLD AND RECENT MEMORIES</h3>
         <MiniGallery />
+
+        
         </Row>
       </Container>
       
