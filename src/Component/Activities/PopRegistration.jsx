@@ -24,7 +24,7 @@ const PopRegistration = () => {
                         
         </div>
       
-      <Modal show={show} onHide={handleClose}>
+      <Modal show={show} onHide={handleClose} >
         <Modal.Header closeButton>
           <Modal.Title>MEMBER REGISTRATION</Modal.Title>
         </Modal.Header>

@@ -2,12 +2,13 @@ import React from 'react';
 import Header from '../Component/Headerss/Headerss';
 import Router from '../Component/Router/Router';
 import Footer from '../Component/Footer/footer';
+import Header2 from '../Component/Headerss/header2';
 
 
 const Layout = () => {
   return (
   <>
-        <Header/>
+        <Header2/>
     <div>
          <Router/>
     </div>

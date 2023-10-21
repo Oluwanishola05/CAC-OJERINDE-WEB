@@ -93,7 +93,7 @@ const Header = () => {
                 <Row>
                     <div className="nav__wrapper">
                         <div className="logo">
-                            <img src={logo} alt="logo" />
+                            <img src={logo} alt="logo" width="30" height="30"/>
                             <div>
                                 <p onClick={logoLinkHome}>CHRIST APOSTOLIC CHURCH</p>
                                

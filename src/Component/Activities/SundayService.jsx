@@ -13,7 +13,7 @@ const SundayService = () => {
             <Row>
                 <div>
                     <p>WORSHIP WITH US THIS <br/>SUNDAY LIVE</p>
-                    <h6><i>Connect to any of our Channel by clicking either of the Button</i></h6>
+                    <h6><i>Connect to any of our Channel by clicking this Button</i></h6>
 
                 </div>
                 <div className='btns'>
@@ -21,10 +21,10 @@ const SundayService = () => {
                        <button className='button1' onClick={() => window.open('https://www.facebook.com')}>
                             <FaFacebook size={20}/>
                         </button>
+
+                       
                         
-                        <button className='buttonss' onClick={() => window.open('http://www.youtube.com')}>
-                            <FaYoutube size={20}/> 
-                        </button>
+                       
                          
                         
                 </div>

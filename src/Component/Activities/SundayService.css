@@ -116,7 +116,7 @@
         
     }
     
-    .buttonss{
+    .buttonTwo{
         width: 130px;
         height: 30px;
         align-items: center;
@@ -132,6 +132,7 @@
         cursor: pointer;
         margin-right: 15px;
         margin-top: 5px;
+        
        
         
     }

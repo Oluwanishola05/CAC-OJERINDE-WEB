@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import ThemeProvider from 'react-bootstrap/ThemeProvider'
 import Layout from './Layout/layout';
 import LoadingSpinner from './Component/spinner/LoadingSpinner';
 import { useState, useEffect } from 'react';
@@ -18,21 +19,22 @@ function App() {
 
   return (
 
-    <div className="App">
+    <ThemeProvider
+        breakpoints={['xxxl', 'xxl', 'xl', 'lg', 'md', 'sm', 'xs', 'xxs']}
+        minBreakpoint="xxs"
+      >
+          <div className="App">
 
-    {isLoading ? (
-      <LoadingSpinner />
-    ) : (
-      <div className="content">
-        {/* Your actual app content */}
-        <Layout/>
-      </div>
-    )}
-  </div>
-    
-      
-    
-     
+            {isLoading ? (
+              <LoadingSpinner />
+            ) : (
+              <div className="content">
+                {/* Your actual app content */}
+                <Layout/>
+              </div>
+            )}
+          </div>
+  </ThemeProvider>
 
   )
 }

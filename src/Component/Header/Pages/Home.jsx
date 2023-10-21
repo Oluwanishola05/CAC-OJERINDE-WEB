@@ -1,6 +1,7 @@
 import React from 'react'
 import '../../../style/Home.css'
-import { Container, Row, Col } from "react-bootstrap";
+import Container from 'react-bootstrap/Container'
+import { Row, Col } from "react-bootstrap";
 import Video from './video';
 import logo from '../../../assets/image/cac-logo.png'
 import WeeklyActivities from '../../Activities/weeklyActivities';
@@ -13,6 +14,7 @@ const Home = () => {
   return (
 
     <>
+    
     <div className="hero__section">
       <section>
         <Container>
