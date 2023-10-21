@@ -2,7 +2,7 @@ import React from 'react'
 import { Container, Row, Col } from 'react-bootstrap';
 import DSPIX from "../../../assets/image/DSpicture.jpg";
 import "../../../style/CurrentLeader.css";
-import PrincipalOfficers from './PrincipalOfficers';
+import PrincipalOfficer from './principalOfficer';
 
 const CurrentLeader = () => {
   return (
@@ -30,7 +30,7 @@ const CurrentLeader = () => {
 
             <h2>CAC PRINCIPAL OFFICERS</h2>
               <Row>
-                <PrincipalOfficers />
+                <PrincipalOfficer />
               </Row>
 
             <h2>CURRENT LEADERS</h2>

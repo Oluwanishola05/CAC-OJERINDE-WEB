@@ -1,5 +1,5 @@
 import React from 'react'
-import { Col, Container, Row } from 'react-bootstrap';
+//import { Col, Container, Row } from 'react-bootstrap';
 import "../../../style/PrincipalOfficers.css";
 import "bootstrap/dist/css/bootstrap.css";
 import president from '../../../assets/image/Pastor-S.-O.-Oladele.jpg';
@@ -8,6 +8,10 @@ import mission from '../../../assets/image/FASUYI.jpg';
 import finance from '../../../assets/image/FINANCEDIRECTOR.JPG';
 import evangelist from '../../../assets/image/evangelist.jpg';
 import superintendent from '../../../assets/image/GeneralSupritendent.JPG';
+import Col from 'react-bootstrap/Col';
+import Container from 'react-bootstrap/Container';
+import Image from 'react-bootstrap/Image';
+import Row from 'react-bootstrap/Row';
 
 
 const PrincipalOfficers = () => {
@@ -99,6 +103,20 @@ const PrincipalOfficers = () => {
 
                 </Row>
             </Container>
+
+        <Container>
+            <Row>
+                <Col xs={6} md={4}>
+                <Image src={president} rounded />
+                </Col>
+                <Col xs={6} md={4}>
+                <Image src={president} roundedCircle />
+                </Col>
+                <Col xs={6} md={4}>
+                <Image src={president} thumbnail />
+                </Col>
+            </Row>
+    </Container>
 
         
         </section>
