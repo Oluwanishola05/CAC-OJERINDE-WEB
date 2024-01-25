@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/CAC-OJERINDE-WEB/static/css/main.e5bfccf7.css",
-    "main.js": "/CAC-OJERINDE-WEB/static/js/main.d003ec98.js",
+    "main.css": "/CAC-OJERINDE-WEB/static/css/main.9c2adb68.css",
+    "main.js": "/CAC-OJERINDE-WEB/static/js/main.d36b018b.js",
     "static/js/787.c14ae4f5.chunk.js": "/CAC-OJERINDE-WEB/static/js/787.c14ae4f5.chunk.js",
     "static/media/Mr sunday.jpg": "/CAC-OJERINDE-WEB/static/media/Mr sunday.b338e25b8a67d324a18d.jpg",
     "static/media/Mr Sunday2.jpg": "/CAC-OJERINDE-WEB/static/media/Mr Sunday2.c24a9e3e14d8fe1b9fda.jpg",
@@ -31,12 +31,12 @@
     "static/media/background.jpg": "/CAC-OJERINDE-WEB/static/media/background.b5792bfc1ecf36237309.jpg",
     "static/media/logo.svg": "/CAC-OJERINDE-WEB/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/CAC-OJERINDE-WEB/index.html",
-    "main.e5bfccf7.css.map": "/CAC-OJERINDE-WEB/static/css/main.e5bfccf7.css.map",
-    "main.d003ec98.js.map": "/CAC-OJERINDE-WEB/static/js/main.d003ec98.js.map",
+    "main.9c2adb68.css.map": "/CAC-OJERINDE-WEB/static/css/main.9c2adb68.css.map",
+    "main.d36b018b.js.map": "/CAC-OJERINDE-WEB/static/js/main.d36b018b.js.map",
     "787.c14ae4f5.chunk.js.map": "/CAC-OJERINDE-WEB/static/js/787.c14ae4f5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e5bfccf7.css",
-    "static/js/main.d003ec98.js"
+    "static/css/main.9c2adb68.css",
+    "static/js/main.d36b018b.js"
   ]
 }
