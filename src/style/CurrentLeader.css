@@ -1,6 +1,4 @@
 
-
-
 .hero__section7{
     padding: 60px;
     justify-content: center;
@@ -40,11 +38,13 @@
     border-radius: 30px;
     border-top: 10px solid blue;
     border-bottom: 10px solid red;
-    box-shadow: 3px 8px 4px black;
+    box-shadow: 3px 8px 4px 8px black;
     width: 80%;
     height: 80%;
     
 }
+
+
 
 .pastorName h4{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -79,4 +79,13 @@
 
 .pastorInfo{
    margin: 50px;
+   
+}
+
+.officer{
+    margin-bottom: 70px;
+}
+
+.Jpastor{
+    padding-top: 50px;;
 }

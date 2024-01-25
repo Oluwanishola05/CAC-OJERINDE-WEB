@@ -3,7 +3,7 @@
     background-image: url(../assets/image/background.jpg);
     background-size: cover;
     height:95vh;
-    padding: 60px 0;
+    padding: 0 0;
     
     }
 
@@ -15,8 +15,18 @@
 
     }
 
+    .carouselImg{
+      height: 30%;
+    }
+    .carouselName{
+      color: white;
+      text-shadow: 3px 2px 2px black,
+      2px 2px 2px black,
+      2px 2px 0px black,
+      2px 2px 2px black;
+    }
 
-.typewriter p {
+.typewriter  {
     display: inline-block;
     text-align: center;
     color: whitesmoke;   

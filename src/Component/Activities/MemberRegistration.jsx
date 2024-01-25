@@ -4,6 +4,7 @@ import "../Activities/MemberRegistration.css"
 import PopRegistration from './PopRegistration';
 import { FaTwitter, FaInstagram, FaFacebook, FaLinkedin, FaGoogle } from 'react-icons/fa'
 import logo from '../../assets/image/cac-logo.png'
+import GoogleDirection from '../Header/Pages/GoogleDirection';
 
 
 const MemberRegistration = () => {
@@ -24,7 +25,7 @@ const MemberRegistration = () => {
 
                      <div className="social-icon2">
                
-                      <FaFacebook size={20}  className="media" onClick={() => window.open('http://www.facebook.com')}/>
+                      <FaFacebook size={20}  className="media" onClick={() => window.open('https://www.facebook.com/CACLIFEAssembly1?mibextid=ZbWKwL')}/>
                       <FaInstagram size={20} className="media" onClick={() => window.open('http://www.instagram.com')}/>
                       <FaLinkedin size={20}  className="media" onClick={() => window.open('http://www.linkedin.com')}/>
                       <FaTwitter size={20} className="media" onClick={() => window.open('http://www.twitter.com')}/>
@@ -42,7 +43,7 @@ const MemberRegistration = () => {
 
                 <Col lg="4" md="12">
                   <div className="logoBac">
-                      <img src={logo} />
+                      <GoogleDirection />
                   </div>
                 </Col>
 

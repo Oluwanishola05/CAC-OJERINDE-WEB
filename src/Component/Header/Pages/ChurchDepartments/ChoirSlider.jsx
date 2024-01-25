@@ -13,7 +13,7 @@ import cm2 from "../../../../assets/image/CHOIR PICTURES/CM2.jpg";
 const ChoirSlider = () => {
   return (
     <div>
-         <Carousel
+         <Carousel fade
          autoPlay
          interval={10000}
          showStatus={false}

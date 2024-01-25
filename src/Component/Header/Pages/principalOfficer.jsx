@@ -13,11 +13,11 @@ import superintendent from '../../../assets/image/GeneralSupritendent.JPG';
 
 const PrincipalOfficer = () => {
   return (
-    <div>
+    <div >
         <Container>
       <Row className='principalOfficers'>
         <Col xs={6} md={4}>
-          <Image src={superintendent}width="171" height="280" roundedCircle />
+          <Image src={superintendent}width="171" height="280" roundedCircle className='images'/>
           <center>
             <h5>Pastor E.O. Odejobi</h5>
             <p>General Superintendent</p>

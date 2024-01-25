@@ -16,6 +16,14 @@
    
 }
 
+.logoBac img{
+    height: 30vh;
+    width: 30vh;
+    float:right;
+    opacity: 0.1;
+    
+}
+
 
 .quick__link-title{
     color: white;
@@ -51,4 +59,13 @@
 }
 .media{
     cursor: pointer;
+    color: azure;
+}
+
+.socialText{
+    color: white;
+}
+
+.cont{
+    color: white;
 }

@@ -16,7 +16,7 @@ const Header2= () => {
          <img src={logo} alt="logo" width="45" height="40"/>
         </Navbar.Brand>
         <Navbar.Brand href="/home">
-            CHRIST APOSTOLIC CHURCH
+           <b> CHRIST APOSTOLIC CHURCH</b>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end" >
@@ -34,6 +34,8 @@ const Header2= () => {
               <NavDropdown.Item href="/sundaySchool">Sunday School</NavDropdown.Item>
               <NavDropdown.Item href="royalShepard">Royal Shepard</NavDropdown.Item>
             </NavDropdown>
+
+            <Nav.Link href="/gallery">Gallery</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

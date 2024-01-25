@@ -35,7 +35,11 @@ p{
     margin-bottom: 40px;
     column-gap: 10px;
     color:thistle;
-    
+   
+}
+
+.media:hover{
+    color: blue;
     
 }
 

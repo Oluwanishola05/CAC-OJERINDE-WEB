@@ -81,7 +81,6 @@ const Youth = () => {
                      
                         
                             <FaFacebook size={25}  className="media" onClick={() => window.open('http://www.facebook.com')}/>
-                            
                             <FaLinkedin size={25}  className="media" onClick={() => window.open('http://www.linkedin.com')}/>
                             <FaTwitter size={25} className="media" onClick={() => window.open('http://www.twitter.com')}/>
                             <FaGoogle size={25} className="media" onClick={() => window.open('http://www.google.com')}/>

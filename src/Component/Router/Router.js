@@ -13,6 +13,7 @@ import RoyalShepard from '../Header/Pages/ChurchDepartments/RoyalShepard';
 import Youth from '../Header/Pages/ChurchDepartments/Youth';
 
 import { Route, Routes, Navigate } from 'react-router-dom';
+import Pioneers from '../Header/Pages/ChurchDepartments/Pioneers';
 
 
 const Router = () => {
@@ -31,6 +32,7 @@ const Router = () => {
         <Route path='royalShepard' element={<RoyalShepard/>} />
         <Route path='children' element={<Children/>} />
         <Route path='youth' element={<Youth/>} />
+        <Route path='pioneers' element={<Pioneers/>} />
     </Routes>
   )
 }

@@ -13,12 +13,12 @@ const SundayService = () => {
             <Row>
                 <div>
                     <p>WORSHIP WITH US THIS <br/>SUNDAY LIVE</p>
-                    <h6><i>Connect to any of our Channel by clicking this Button</i></h6>
+                    <h6><i>Connect to any of our Channels by clicking this Button</i></h6>
 
                 </div>
                 <div className='btns'>
                        
-                       <button className='button1' onClick={() => window.open('https://www.facebook.com')}>
+                       <button className='buttonfacebook' onClick={() => window.open('https://www.facebook.com/CACLIFEAssembly1?mibextid=ZbWKwL')}>
                             <FaFacebook size={20}/>
                         </button>
 

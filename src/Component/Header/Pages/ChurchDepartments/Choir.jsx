@@ -1,9 +1,20 @@
 import React from 'react';
-import { Row, Container, Col } from 'react-bootstrap';
+
 import "../../../../style/choir.css";
 
 import cm1 from "../../../../assets/image/CHOIR PICTURES/CM1.jpg"
 import ChoirSlider from './ChoirSlider';
+import Col from 'react-bootstrap/Col';
+import Container from 'react-bootstrap/Container';
+import Image from 'react-bootstrap/Image';
+import Row from 'react-bootstrap/Row';
+import HomeSlider from '../HomeSlider';
+import president from '../../../../assets/image/Pastor-S.-O.-Oladele.jpg';
+import secretary from '../../../../assets/image/cac-GENERALSECRETARY.JPG';
+import mission from '../../../../assets/image/FASUYI.jpg';
+import finance from '../../../../assets/image/FINANCEDIRECTOR.JPG';
+import evangelist from '../../../../assets/image/evangelist.jpg';
+import superintendent from '../../../../assets/image/GeneralSupritendent.JPG';
 
 const Choir = () => {
   return (
@@ -60,6 +71,21 @@ const Choir = () => {
                     </div>
                     
                   </Col>
+              </Row>
+
+              <Row>
+                <Col>
+                    <div>
+                      <h3>Meet Our Excos</h3>
+                    </div>
+
+                    <div>
+                        <Container>
+                           <HomeSlider />
+                        </Container>
+                        </div>
+                      
+                </Col>
               </Row>
 
             </Container>

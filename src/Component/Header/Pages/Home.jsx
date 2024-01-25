@@ -7,7 +7,12 @@ import logo from '../../../assets/image/cac-logo.png'
 import WeeklyActivities from '../../Activities/weeklyActivities';
 import SundayService from '../../Activities/SundayService';
 import MemberRegistration from '../../Activities/MemberRegistration';
-
+import Carousel from 'react-bootstrap/Carousel';
+import HomePage from '../../../assets/image/HomePage.jpg';
+import HomePage2 from '../../../assets/image/HomePage2.jpg';
+import HomePage3 from '../../../assets/image/HomePage3.jpg';
+import HomeSlider from './HomeSlider';
+import GoogleDirection from './GoogleDirection';
 
 
 const Home = () => {
@@ -16,27 +21,45 @@ const Home = () => {
     <>
     
     <div className="hero__section">
-      <section>
-        <Container>
-          <Row>
-            <Col lg='6' md='6'>
-
-              <div className="typewriter">
-                <p>Welcome to CAC OKE-IYE (LIFE DISTRICT HQ) OJERINDE. </p>
-              </div>
-
-              <div className='video' >
-                <Video control />
-              </div>
-            </Col>
-
-          </Row>
-
-
-        </Container>
-      </section>
-
-
+      <Row>
+          <Carousel data-bs-theme="dark" fade a
+            autoPlay
+            interval={1800}>
+            <Carousel.Item>
+              <img
+                className="carouselImg"
+                src={HomePage}
+                
+              />
+              <Carousel.Caption>
+                <h3 className='carouselName'> WE WELCOME YOU TO  </h3>
+                
+              </Carousel.Caption>
+            </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className="carouselImg"
+                src={HomePage2}
+                alt="Second slide"
+              />
+              <Carousel.Caption>
+                <h3 className='carouselName'>CAC OKE-IYE (LIFE DISTRICT HQ)</h3>
+                
+              </Carousel.Caption>
+            </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className="carouselImg"
+                src={HomePage3}
+                alt="Third slide"
+              />
+              <Carousel.Caption>
+                <h3 className='carouselName'>6/8, CHURCH CLOSE, OFF OJERINDE STREET IDI-ARABA MUSHIN, LAGOS .</h3>
+                
+              </Carousel.Caption>
+            </Carousel.Item>
+          </Carousel>
+      </Row>  
     </div>
     
     <div className="hero__section1">
@@ -49,7 +72,7 @@ const Home = () => {
                     them also i must bring, and they shall hear my voice; 
                     and there shall be one fold, and one shephard.</p>
               </div>
-
+              
             <div>
                <WeeklyActivities />
             </div>
@@ -67,7 +90,7 @@ const Home = () => {
 
       <SundayService />
       <MemberRegistration />
-
+      
       
       
 

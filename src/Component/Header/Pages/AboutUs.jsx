@@ -2,8 +2,15 @@ import React from 'react'
 import { Container, Row, Col } from 'react-bootstrap';
 import "../../../style/AboutUs.css";
 import logo from "../../../assets/image/cac-logo.png";
+import { Link, useNavigate } from 'react-router-dom';
+import Button from 'react-bootstrap/Button';
+import Video from './video';
 
 const AboutUs = () => {
+
+ const nav =  useNavigate();
+  
+
   return (
     <div>
 
@@ -40,8 +47,11 @@ const AboutUs = () => {
              Totam necessitatibus nesciunt debitis, earum ipsa saepe dignissimos. </p>
 
             </div>
-             <hr />
+          </Row>
 
+             <hr />
+          <Row>
+            <Col lg="6" md="12">
              <div className='type'>
              <p className='typewriter3'>About Us </p>
 
@@ -53,13 +63,21 @@ const AboutUs = () => {
              Totam necessitatibus nesciunt debitis, earum ipsa saepe dignissimos. </p>
              
             </div>
+            </Col>
+
+            <Col lg="6" md="12">
+              <div className='video' >
+                <Video control />
+              </div>
+            </Col>
           </Row>
 
           <br/>
           <hr/>
           
-          <Row>
-            <Col lg="6" md="12">
+          <div className="mission">
+            <Row>
+            <Col lg="4" md="12">
             <div className='type'>
              <h2>Our Mision </h2>
 
@@ -70,7 +88,7 @@ const AboutUs = () => {
             </div>
             </Col>
 
-            <Col lg="6" md="12">
+            <Col lg="4" md="12">
             <div className='type'>
              <h2> Our Vision </h2>
 
@@ -78,8 +96,20 @@ const AboutUs = () => {
              
             </div>
             </Col>
+
+            <Col lg="4" md="12">
+            <div className='type'>
+             <h2> Our Pioneers </h2>
+
+             <Button variant="primary" onClick={()=>nav("/pioneers")}>See More</Button>
+             
+             
+            </div>
+            </Col>
               
           </Row>
+          </div>
+          
         </Container>
       </section>
       
