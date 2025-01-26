@@ -1,0 +1,48 @@
+.gallery-slider {
+    width: 100%; /* Full width */
+    overflow: hidden; /* Hide overflowing images */
+    position: relative;
+    height: 320px; /* Adjust to fit image and frame size */
+    background-color: #f4f4f4; /* Optional background color */
+  }
+  
+  .slider-track {
+    display: flex;
+    gap: 20px; /* Space between images */
+    animation: slide 15s linear infinite; /* Continuous sliding animation */
+  }
+  
+  .slider-item {
+    display: flex;
+    justify-content: center; /* Center the image frame horizontally */
+    align-items: center; /* Center the image frame vertically */
+  }
+  
+  .image-frame {
+    width: 100%; /* Fixed width for each image frame */
+    height: 100%; /* Fixed height for each image frame */
+    border: 2px solid #ccc; /* Frame border */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Optional shadow for the frame */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; /* Ensure images fit inside the frame */
+    border-radius: 8px; /* Optional rounded corners */
+    background: #fff; /* Optional background color for the frame */
+  }
+  
+  .image-frame img {
+    width: 100%; /* Ensure the image fits the frame */
+    height: 100%; /* Ensure the image fits the frame */
+    object-fit: cover; /* Scale images proportionally to fill the frame */
+  }
+  
+  @keyframes slide {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  

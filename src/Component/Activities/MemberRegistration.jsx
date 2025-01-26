@@ -3,7 +3,7 @@ import { Container, Row, Col } from 'react-bootstrap';
 import "../Activities/MemberRegistration.css"
 import PopRegistration from './PopRegistration';
 import { FaTwitter, FaInstagram, FaFacebook, FaLinkedin, FaGoogle } from 'react-icons/fa'
-import logo from '../../assets/image/cac-logo.png'
+import logo from '../../assets/image/cac-logo.png';
 import GoogleDirection from '../Header/Pages/GoogleDirection';
 
 

@@ -1,71 +1,172 @@
-.listLink{
+/* Base Styles */
+.listLink {
     padding: 0px;
     border: none; 
 }
 
-.footer{
+.footer {
     padding-top: 60px;
     padding-bottom: 30px;
     background: rgb(2,0,36);
 }
 
-#text-footer{
-   color: white;
-   font-family: 'Arizonia' cursive;
-   font-size: 20px;
-   
+#text-footer {
+    color: white;
+    font-family: 'Arizonia', cursive;
+    font-size: 20px;
 }
 
-.logoBac img{
+.logoBac img {
     height: 30vh;
     width: 30vh;
-    float:right;
+    float: right;
     opacity: 0.1;
-    
 }
 
-
-.quick__link-title{
+.quick__link-title {
     color: white;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-.footer__panel{
+.footer__panel {
     color: #ffffffe7;
 }
 
-
-
-
-
-
-.footer__copyright{
+.footer__copyright {
     text-align: center;
     margin-top: 20px;
     font-style: oblique;
     font-size: 12px;
-    color:white;
-    
+    color: white;
 }
 
-.social-icon{
+.social-icon {
     display: flex;
     justify-content: center;
     margin-top: 40px;
     column-gap: 10px;
     color: azure;
-    
-    
 }
-.media{
+
+.media {
     cursor: pointer;
     color: azure;
 }
 
-.socialText{
+.socialText {
     color: white;
 }
 
-.cont{
+.cont {
     color: white;
+}
+
+/* Responsive Styles */
+@media only screen and (max-width: 1200px) {
+    .logoBac img {
+        height: 25vh;
+        width: 25vh;
+    }
+
+    .footer__copyright {
+        font-size: 14px;
+    }
+
+    #text-footer {
+        font-size: 18px;
+    }
+
+    .social-icon {
+        margin-top: 30px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .footer {
+        padding-top: 50px;
+        padding-bottom: 20px;
+    }
+
+    .footer__panel {
+        font-size: 14px;
+    }
+
+    .quick__link-title {
+        font-size: 18px;
+    }
+
+    .social-icon {
+        margin-top: 20px;
+    }
+
+    #text-footer {
+        font-size: 16px;
+    }
+
+    .logoBac img {
+        height: 20vh;
+        width: 20vh;
+    }
+
+    .footer__copyright {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .footer__panel, .socialText {
+        font-size: 16px;
+    }
+
+    #text-footer {
+        font-size: 14px;
+    }
+
+    .social-icon {
+        flex-direction: column;
+        margin-top: 20px;
+        column-gap: 5px;
+    }
+
+    .media {
+        font-size: 18px;
+    }
+
+    .logoBac img {
+        height: 15vh;
+        width: 15vh;
+        margin: 0 auto;
+        display: block;
+    }
+
+    .footer__copyright {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .footer {
+        padding-top: 40px;
+        padding-bottom: 10px;
+    }
+
+    .footer__panel, .socialText {
+        font-size: 14px;
+    }
+
+    #text-footer {
+        font-size: 12px;
+    }
+
+    .social-icon {
+        margin-top: 10px;
+    }
+
+    .footer__copyright {
+        font-size: 14px;
+    }
+
+    .quick__link-title {
+        font-size: 16px;
+    }
 }

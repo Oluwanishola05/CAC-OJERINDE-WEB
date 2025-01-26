@@ -37,7 +37,7 @@ const AboutUs = () => {
         <Container>
           <Row>
             <div className='type'>
-             <p className='typewriter2'>Foundation </p>
+             {/* <p className='typewriter2'>Foundation </p> */}
 
              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur asperiores incidunt recusandae nostrum voluptatum quis, omnis nulla repellat a quas consequuntur corrupti accusamus explicabo? Rerum molestias maiores laborum tempora aperiam.
              Eligendi officiis harum eos accusantium, rerum ipsam eveniet hic veritatis atque fugiat temporibus ullam maiores molestiae praesentium tempore sit repudiandae ea velit inventore minus laudantium? Velit nihil amet iusto adipisci.
@@ -53,14 +53,13 @@ const AboutUs = () => {
           <Row>
             <Col lg="6" md="12">
              <div className='type'>
-             <p className='typewriter3'>About Us </p>
+             {/* <p className='typewriter3'>About Us </p> */}
 
              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur asperiores incidunt recusandae nostrum voluptatum quis, omnis nulla repellat a quas consequuntur corrupti accusamus explicabo? Rerum molestias maiores laborum tempora aperiam.
              Eligendi officiis harum eos accusantium, rerum ipsam eveniet hic veritatis atque fugiat temporibus ullam maiores molestiae praesentium tempore sit repudiandae ea velit inventore minus laudantium? Velit nihil amet iusto adipisci.
              Magnam nisi quae, quibusdam facere provident ut suscipit delectus ad quisquam minus nam tempora. Quaerat porro quia perspiciatis totam aliquid reprehenderit, obcaecati iure, pariatur cum nulla, itaque vel vitae consectetur.
              Quaerat pariatur cupiditate dolorum voluptatibus et ad explicabo sit iure cum error dignissimos doloribus inventore, temporibus distinctio quasi impedit consequatur dicta, rerum officiis veritatis architecto dolorem nisi rem. Provident, aut.
-             Porro optio, veritatis dignissimos eligendi modi nulla hic ipsum mollitia, repellendus ipsam id cupiditate. Iure molestiae ipsum, magnam minus possimus ut dolorum, eum suscipit ratione ab dolorem dicta cum mollitia.
-             Totam necessitatibus nesciunt debitis, earum ipsa saepe dignissimos. </p>
+             Porro optio, veritatis dignissimo. </p>
              
             </div>
             </Col>
@@ -75,40 +74,6 @@ const AboutUs = () => {
           <br/>
           <hr/>
           
-          <div className="mission">
-            <Row>
-            <Col lg="4" md="12">
-            <div className='type'>
-             <h2>Our Mision </h2>
-
-             <p>Leading people into the knowledge of God
-                through an in-depth study of the word of God, 
-                prevailing prayer an spiritual worship. </p>
-             
-            </div>
-            </Col>
-
-            <Col lg="4" md="12">
-            <div className='type'>
-             <h2> Our Vision </h2>
-
-             <p>Soul winning and spiritual reawakining of the world </p>
-             
-            </div>
-            </Col>
-
-            <Col lg="4" md="12">
-            <div className='type'>
-             <h2> Our Pioneers </h2>
-
-             <Button variant="primary" onClick={()=>nav("/pioneers")}>See More</Button>
-             
-             
-            </div>
-            </Col>
-              
-          </Row>
-          </div>
           
         </Container>
       </section>

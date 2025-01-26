@@ -22,43 +22,47 @@ const Home = () => {
     
     <div className="hero__section">
       <Row>
-          <Carousel data-bs-theme="dark" fade a
-            autoPlay
-            interval={1800}>
-            <Carousel.Item>
-              <img
-                className="carouselImg"
-                src={HomePage}
-                
-              />
-              <Carousel.Caption>
-                <h3 className='carouselName'> WE WELCOME YOU TO  </h3>
-                
-              </Carousel.Caption>
-            </Carousel.Item>
-            <Carousel.Item>
-              <img
-                className="carouselImg"
-                src={HomePage2}
-                alt="Second slide"
-              />
-              <Carousel.Caption>
-                <h3 className='carouselName'>CAC OKE-IYE (LIFE DISTRICT HQ)</h3>
-                
-              </Carousel.Caption>
-            </Carousel.Item>
-            <Carousel.Item>
-              <img
-                className="carouselImg"
-                src={HomePage3}
-                alt="Third slide"
-              />
-              <Carousel.Caption>
-                <h3 className='carouselName'>6/8, CHURCH CLOSE, OFF OJERINDE STREET IDI-ARABA MUSHIN, LAGOS .</h3>
-                
-              </Carousel.Caption>
-            </Carousel.Item>
-          </Carousel>
+      <Carousel data-bs-theme="dark" fade autoPlay interval={1800}>
+      <Carousel.Item>
+        <div className="carouselImgWrapper">
+          <img
+            className="carouselImg"
+            src={HomePage}
+            alt="First slide"
+          />
+          <div className="imageOverlay"></div>
+        </div>
+        <Carousel.Caption>
+          <h3 className="carouselName">WE WELCOME YOU TO</h3>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item>
+        <div className="carouselImgWrapper">
+          <img
+            className="carouselImg"
+            src={HomePage2}
+            alt="Second slide"
+          />
+          <div className="imageOverlay"></div>
+        </div>
+        <Carousel.Caption>
+          <h3 className="carouselName">CAC OKE-IYE (LIFE DISTRICT HQ)</h3>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item>
+        <div className="carouselImgWrapper">
+          <img
+            className="carouselImg"
+            src={HomePage3}
+            alt="Third slide"
+          />
+          <div className="imageOverlay"></div>
+        </div>
+        <Carousel.Caption>
+          <h3 className="carouselName">6/8, CHURCH CLOSE, OFF OJERINDE STREET IDI-ARABA MUSHIN, LAGOS.</h3>
+        </Carousel.Caption>
+      </Carousel.Item>
+    </Carousel>
       </Row>  
     </div>
     

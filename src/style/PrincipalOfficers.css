@@ -1,16 +1,61 @@
-.principalOfficers p{
+.principalOfficers p {
     color: red;
     text-align: center;
-}
-
-
-
-
-
-
-@media only screen and (max-width: 600px){
-    .officers img{
-        width: 100px;
-        height: auto;
+  }
+  
+  .principalOfficers-container {
+    margin-top: 2rem;
+    text-align: center;
+  }
+  
+  .officer-col {
+    margin-bottom: 2rem;
+  }
+  
+  .officer-card {
+    background: #f9f9f9;
+    border-radius: 12px;
+    padding: 1rem;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .officer-card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .officer-image {
+    width: 271px;
+    height: 280px;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+    transition: transform 0.3s ease;
+  }
+  
+  .officer-image:hover {
+    transform: scale(1.1);
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .officers img,
+    .officer-image {
+      width: 100px;
+      height: auto;
     }
-}
+  
+    .officer-card {
+      padding: 0.5rem;
+    }
+  }
+  
+  @keyframes slideIn {
+    0% {
+      opacity: 0;
+      transform: translateX(-100%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  

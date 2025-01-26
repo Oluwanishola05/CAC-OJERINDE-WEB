@@ -11,7 +11,7 @@ function App() {
 
   useEffect(() => {
     // Simulate a delay for demonstration purposes
-    const delay = 5000; // 2 seconds
+    const delay = 1000; // 
     setTimeout(() => {
       setIsLoading(false);
     }, delay);

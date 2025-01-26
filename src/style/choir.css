@@ -1,0 +1,90 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+  }
+  
+  h2, h3, h4 {
+    margin: 0;
+  }
+  
+  /* Hero Section */
+  .hero__section5 {
+    background-color: #00264d; /* Deep blue background */
+    padding: 60px 0;
+    color: white;
+    text-align: center;
+  }
+  
+  .hero__section5 .img h2 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #fff;
+  }
+  
+  /* Choir Slider Section */
+  .hero__section7 {
+    background-color: #f9f9f9; /* Light background */
+    padding: 60px 20px;
+  }
+  
+  .pastorInfo {
+    margin-bottom: 50px;
+    align-items: center;
+  }
+  
+  /* Welcome Address */
+  .pix img {
+    width: 70%;
+    max-width: 450px;
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .pastorName h4 {
+    font-size: 1.5rem;
+    margin-top: 20px;
+    color: #00264d;
+    text-align: left;
+  }
+  
+  .pastorName p {
+    font-size: 1rem;
+    color: #666;
+    margin-top: 5px;
+  }
+  
+  /* Excos Section */
+  .hero__section7 h3 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 30px;
+    color: #00264d;
+  }
+  
+  .HomeSlider {
+    margin: 0 auto;
+    padding: 20px 0;
+  }
+  
+  /* Responsiveness */
+  @media (max-width: 768px) {
+    .hero__section5 .img h2 {
+      font-size: 2rem;
+    }
+  
+    .pix img {
+      max-width: 100%;
+    }
+  
+    .pastorName h4 {
+      font-size: 1.2rem;
+    }
+  
+    .hero__section7 h3 {
+      font-size: 1.5rem;
+    }
+  }
+  
